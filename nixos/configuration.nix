@@ -7,6 +7,8 @@
 
   environment.systemPackages = [ pkgs.vim pkgs.emacs pkgs.nano pkgs.tailscale ];
 
+  networking.firewall.enable = false;
+
   services = {
     openssh.enable = true;
     tailscale.enable = true;
