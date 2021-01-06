@@ -5,7 +5,7 @@
   # own in this config.
   virtualisation.digitalOcean.setSshKeys = false;
 
-  environment.systemPackages = [ pkgs.vim pkgs.emacs pkgs.nano pkgs.tailscale ];
+  environment.systemPackages = [ pkgs.vim pkgs.emacs pkgs.nano pkgs.tailscale pkgs.nodejs-12_x ];
 
   networking.firewall.enable = false;
 
